@@ -1,2 +1,2 @@
 # Currency Converter
-## Indian Rupees to US Dollars Converter
+## Indian Rupees to US Dollars
