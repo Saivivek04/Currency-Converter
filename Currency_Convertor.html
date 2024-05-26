@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Currency Converter</title>
+    <style>
+        body{
+            color: #fff;
+            background-color: #000;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1><span>Indian Rupees</span> to <span>US Dollars</span> Converter</h1>
+
+    <script>
+
+        const Exchange_Rate = 0.012;
+        const Amount_In_Indian_Currency = prompt("Enter amount in Indian Rupees:");
+        const Amount_In_US_Currency = Amount_In_Indian_Currency * Exchange_Rate;
+
+        document.write(`<h2>Amount in Indian Currency: ${Amount_In_Indian_Currency} Rupees</h2`);
+        document.write(`<br/>`);
+        document.write(`<h2>Amount in US Dollars: ${Amount_In_US_Currency}$ </h2>`);
+
+    </script>
+
+</body>
+</html>
